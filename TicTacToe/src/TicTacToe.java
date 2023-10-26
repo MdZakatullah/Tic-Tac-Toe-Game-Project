@@ -328,7 +328,7 @@ public class TicTacToe {
 		panel_7.setLayout(new BorderLayout(0, 0));
 		
 		JButton btn5 = new JButton("");
-		btn5.addActionListener(new ActionListener() {
+		btn5.addActionListener(new ActionListener() {  
 			public void actionPerformed(ActionEvent e) {
 				btn5.setText(startGame);
 				if(startGame.equalsIgnoreCase("X")) {
